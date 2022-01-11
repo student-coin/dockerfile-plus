@@ -1,6 +1,6 @@
 # syntax = docker/dockerfile:1.2.1
 
-FROM rust:latest as builder
+FROM rust:1.50 as builder
 USER root
 
 WORKDIR /rust-src
